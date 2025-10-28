@@ -1,8 +1,12 @@
-baseURL = 'https://geekclub.dk/'
+baseURL = 'https://www.geekclub.dk/'
 languageCode = 'en-us'
 title = 'Geekclub'
 
-theme = "vintage-web-hugo-theme"
+theme = 'vintage-web-hugo-theme'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 # Pagination
 [pagination]
